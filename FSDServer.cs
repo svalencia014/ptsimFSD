@@ -47,8 +47,9 @@ namespace HelloWorld
                     NetworkStream stream = client.GetStream();
 
                     string msg = "$DISERVER:CLIENT:VATSIM FSD V3.13:2656b9c15c380bf3438e8e";
+                    byte[] buffer = System.Text.Encoding.ASCII.GetBytes(msg);
 
-                    stream.Write(msg);
+                    stream.Write(buffer);
                     Console.WriteLine("Sent: " + msg);
                 }
             }

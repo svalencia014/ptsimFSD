@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SamVa\\OneDrive\\Documents\\GitHub\\ptsimTrainer\\ptsimTrainer.csproj": {}
+    "C:\\Users\\jm865\\Documents\\GitHub\\ptsimTrainer\\ptsimTrainer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SamVa\\OneDrive\\Documents\\GitHub\\ptsimTrainer\\ptsimTrainer.csproj": {
+    "C:\\Users\\jm865\\Documents\\GitHub\\ptsimTrainer\\ptsimTrainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SamVa\\OneDrive\\Documents\\GitHub\\ptsimTrainer\\ptsimTrainer.csproj",
+        "projectUniqueName": "C:\\Users\\jm865\\Documents\\GitHub\\ptsimTrainer\\ptsimTrainer.csproj",
         "projectName": "ptsimTrainer",
-        "projectPath": "C:\\Users\\SamVa\\OneDrive\\Documents\\GitHub\\ptsimTrainer\\ptsimTrainer.csproj",
-        "packagesPath": "C:\\Users\\SamVa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SamVa\\OneDrive\\Documents\\GitHub\\ptsimTrainer\\obj\\",
+        "projectPath": "C:\\Users\\jm865\\Documents\\GitHub\\ptsimTrainer\\ptsimTrainer.csproj",
+        "packagesPath": "C:\\Users\\jm865\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jm865\\Documents\\GitHub\\ptsimTrainer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SamVa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jm865\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
