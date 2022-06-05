@@ -50,12 +50,8 @@ namespace PTSIM.FSDServer
                     data = null;
 
                     NetworkStream stream = client.GetStream(); //Grab initial stream
-
-                    //22 Character hexadecimal generator here
-                    String token = Generate.HexString(22).ToLower();
-                    Console.WriteLine(token); //Print hexadecimal string here for debugging. 
                     
-                    string msg = $"$DISERVER:CLIENT:VATSIM FSD V3.4h:{token}"; //Server Identifier Stream
+                    string msg = $"$DISERVER:CLIENT:VATSIM FSD V3.13:3ef36a24"; //Server Identifier Stream
                     byte[] buffer = Encoding.UTF8.GetBytes(msg);
 
                     stream.Write(buffer);
